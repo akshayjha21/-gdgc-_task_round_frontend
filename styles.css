@@ -1,0 +1,203 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .signin{
+    display: flex;
+  }
+  #signinimg{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .signup-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: rem;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+  }
+  .hero-text{
+    width: 50%;
+    height: 60vh;
+    color: rgba(240, 248, 255, 0.781);
+  }
+  .above-text{
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .below-text p{
+    font-size: 1rem;
+    color: #d7dad8;
+  }
+  .below-text{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+  }
+  .hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: -10px;
+  }
+  
+  .hero-text .highlight {
+    color: #ff6f61;
+  }
+  
+  
+  .demo-btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .hero-image{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .image{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .im{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+  }
+  .hero-text,h1{
+    font-weight: 400;
+  }
+  .hero-image img {
+    width: 90%;
+    height: 60vh;
+    border-radius: 10px;
+  }
+  .below-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+  }
+  .right-upp-div{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .right-direction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .right-upp-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  right-upp-div p{
+    padding-left: 20px;
+  }
+  .info-section {
+    display: flex;
+    gap: 5px;
+    padding-right: 40px;
+    height: 40vh;
+  }
+  .info-card {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    color: #000;
+  }
+  
+  .info-card.orange {
+    background-color: #ef3d2c;
+  }
+  
+  .info-card.gray {
+    background-color: #f0f0f0;
+  }
+  
+  .info-card.yellow {
+    background-color: #ffd700;
+    /* padding: none; */
+  }
+  .buttons-section {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+
+  }
+  .below-container
+  .buttons-section button {
+    padding: 10px 20px;
+    background-color:#000;
+    border: 1px solid white;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 20px;
+  }
+  
